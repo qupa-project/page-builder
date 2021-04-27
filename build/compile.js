@@ -55,7 +55,7 @@ function BuildArticle(article) {
 	meta += `<meta property="og:description" content="${article.description}">`;
 	meta += `<meta property="og:type" content="article">`;
 	meta += `<meta property="og:url" content="https://${process.env.CNAME}${article.path}">`;
-	meta += `<meta property="og:process.env.SITE_NAME" content="${process.env.SITE_NAME}">`;
+	meta += `<meta property="og:site_name" content="${process.env.SITE_NAME}">`;
 	meta += `<meta property="og:tag" content="${article.tags.join(", ")}">`;
 
 
