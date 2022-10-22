@@ -1,3 +1,6 @@
+> **DEPRECATED**
+> Recommend migrating over to [Material MkDocs](https://squidfunk.github.io/mkdocs-material/)
+
 ## Setup
 1. Fork this repo, the following steps will be altering your fork
 2. Update the ``.env`` file with your page's information
